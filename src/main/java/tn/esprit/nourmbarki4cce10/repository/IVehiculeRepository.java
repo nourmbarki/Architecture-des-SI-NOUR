@@ -6,4 +6,5 @@ import tn.esprit.nourmbarki4cce10.domain.Vehicule;
 
 public interface IVehiculeRepository extends JpaRepository<Vehicule, Long> {
 
+
 }
