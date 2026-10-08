@@ -1,6 +1,7 @@
 package tn.esprit.nourmbarki4cce10.service.impls;
 
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tn.esprit.nourmbarki4cce10.domain.Vehicule;
@@ -8,7 +9,7 @@ import tn.esprit.nourmbarki4cce10.repository.IVehiculeRepository;
 import tn.esprit.nourmbarki4cce10.service.IVehiculeService;
 
 import java.util.List;
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Service
 
 public class VehiculeServicesImlp implements IVehiculeService {
